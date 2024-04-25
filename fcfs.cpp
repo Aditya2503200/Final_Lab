@@ -4,8 +4,7 @@
 
 using namespace std;
 
-class Process {
-public:
+struct Process {
     int id;
     int arrivalTime; 
     int burstTime;  
